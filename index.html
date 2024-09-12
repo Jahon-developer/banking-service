@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking Service</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container max-w-[1600px] mx-auto border border-[red] relative">
+    <div class="absolute top-[0] left-[50%] translate-x-[-50%] w-[100%] max-w-[1600px] h-[883px]">
+      <img class="h-[100%] w-[100%] object-cover" src="./images/hero background.png" alt="" />
+    </div>
+    <header class="relative z-[1] flex max-w-[1296px] justify-between gap-[10px] items-center mx-auto mt-[18px] lg1300:px-[10px]">
+      <div class="font-HK font-bold text-[24px] leading-[30px] text-[#fff] flex">
+        <span class="w-[30px] h-[30px] bg-[#FD4C5C] flex justify-center items-center rounded-full">
+          A
+        </span>
+        ppmax
+      </div>
+      <div class="max-w-[356px] w-[100%] flex justify-between items-center gap-[10px] md720:hidden">
+        <a href="" class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Demos</a>
+        <a href="" class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Features</a>
+        <a href="" class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Pricing</a>
+        <a href="" class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Contact</a>
+      </div>
+      <div class="flex gap-[30.5px] items-center sm340:gap-[15px]">
+        <a class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]" href="">Login</a>
+        <a class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff] bg-[#ffffff36] backdrop-opacity-20 rounded-[53px] flex 
+        justify-center items-center px-[33px] py-[13px] sm340:px-[23px] sm340:py-[6px]"
+          href="">Sign Up</a>
+      </div>
+    </header>
+    <main class="overflow-hidden">
+      <section class="relative z-[1] text-center mt-[76px] md540:px-[10px] ">
+        <h1 class="font-HK font-bold text-[72px] leading-[79.2px] tracking-[-0.5px] max-w-[760px] mx-auto text-[#fff] 
+        md744:text-[62px] md640:text-[50px] md540:text-[52px] md540:leading-[62px] sm400:text-[32px] sm400:leading-[42px]"
+            >Great way to get banking services easily</h1>
+        <p class="font-HK font-semibold text-[16px] leading-[24px] max-w-[490.48px]
+            mx-auto mt-[20px] text-[#fff] opacity-80">An enim nullam tempor sapien gravida donec enim ipsum porta justo
+          congue magna at pretium purus pretium ligula </p>
+        <form action="" class="mx-auto mt-[36px] max-w-[526px] flex p-[8px] ps-[25px] bg-[#fff] justify-between 
+            items-center rounded-[65px] gap-[10px]">
+          <input type="text" placeholder="Enter email address" class="font-HK font-[regular] text-[16px] leading-[26px] color-[#000B33]
+            placeholder:font-HK font-placeholder:[regular] placeholder:text-[16px] placeholder:leading-[26px] placeholder:color-[#000B33] 
+            placeholder:opacity-60 border-none outline-none w-[100%] max-w-[312px]">
+          <button class="font-HK font-bold text-[18px] leading-[25.2px] text-[#fff] py-[12px] w-[100%] max-w-[181px] 
+              bg-[#FD4C5C] rounded-[50px] transition-all duration-[0.4s] hover:opacity-80 sm340:max-w-[80px]">
+              <span class="sm340:hidden">Get Started Free</span> <span class="hidden sm340:block">GO</span>
+            </button>
+        </form>
+      </section>
+      <section class="mx-auto mt-[415px] flex justify-between items-center max-w-[1295px] py-[80px] gap-[30px]
+      md950:overflow-scroll md950:mt-[420px] md744:p-[8px] md744:pt-[30px] md744:pb-[30px] md744:mt-[350px] md540:mt-[380px] 
+      sm436:-mt-[350px] sm400:mt-[470px] sm340:mt-[450px]">
+        <img src="images/airbnb.png" alt="">
+        <img src="images/hubspot.png" alt="">
+        <img src="images/google.png" alt="">
+        <img src="images/microsoft.png" alt="">
+        <img src="images/walmart.png" alt="">
+        <img src="images/fedex.png" alt="">
+      </section>
+      <section class="bg-[#2b59ff08] ">
+        <div class="max-w-[1210px] flex justify-between ms-[152px] pt-[128px] md973:ms-[0px] md973:p-[8px] md744:gap-[10px] 
+        md744:pt-[88px] md600:pt-[60px] md600:flex-col">
+          <div class="flex-1 flex items-center">
+            <img class="w-[100%] md600:h-[420px] md600:object-contain" src="images/section 3 hero.png" alt="">
+          </div>
+          <div class="flex-1 flex justify-end md600:justify-center">
+            <div class="max-w-[440px] mt-[70px] md600:mt-[40px] md600:text-center">
+              <span class="font-HK font-semibold text-[20px] leading-[26px] text-[#00BB98] md744:text-[16px]">Track Everything</span>
+              <h1 class="font-HK font-bold mt-[20px] text-[46px] leading-[57.6px] 
+                tracking-[-0.5px] text-[#000B33] md744:text-[36px] md744:leading-[42px] md744:mt-[10px]">We track your daily<br 
+                class="md973:hidden">expenses with better<br class="md973:hidden">
+                algorithm & data.</h1>
+              <p class="mt-[17px] font-HK font-regular text-[16px] leading-[26px] 
+                text-[#000B33] opacity-80 ">An enim nullam tempor sapien gravida donec enim ipsum porta justo integer
+                at odio velna
+                vitae auctor integer congue magna at pretium purus pretium ligula.</p>
+              <button class="mt-[38px] block w-[100%] max-w-[150px] bg-[#FD4C5C] rounded-[50px] py-[13px]
+                font-HK font-semibold text-[16px] leading-[24px] text-[#fff] border-none outline-none
+                transition-all duration-[0.4s] hover:opacity-80 md600:mx-auto">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-[1245px] mt-[136px] ms-[152px] flex justify-between">
+        <div class="flex-1">
+          <div class="max-w-[443px]">
+            <span class="font-HK font-semibold text-[20px] leading-[26px] text-[#00BB98]">Why choose us</span>
+            <h1 class="mt-[20px] font-HK font-bold text-[48px] leading-[57.6px] tracking-[-0.5px] text-[#000B33]">We
+              offer great features in Apptop</h1>
+            <p class="mt-[15px] font-HK font-regular text-[16px] leading-[26px] text-[#000B33]">Vero homero perfecto mei
+              ut, sonet aperiam an nec. Me vita haeo tibi que com titure viset cut.Proin tempus.</p>
+            <div class="mt-[46px] max-w-[409px] flex flex-col gap-[41px]">
+              <div class="flex justify-between gap-[23px]">
+                <span class="min-w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#00BB98]">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.999 7.00031C12.6559 7.00031 13.999 5.65716 13.999 4.00031C13.999 2.34345 12.6559 1.00031 10.999 1.00031C9.34217 1.00031 7.99902 2.34345 7.99902 4.00031C7.99902 5.65716 9.34217 7.00031 10.999 7.00031Z"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M10.999 21.0003V7.00031" stroke="white" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path
+                      d="M3.99939 11.0005H0.99939C0.99939 13.6527 2.05296 16.1962 3.92832 18.0716C5.80369 19.9469 8.34722 21.0005 10.9994 21.0005C13.6516 21.0005 16.1951 19.9469 18.0705 18.0716C19.9458 16.1962 20.9994 13.6527 20.9994 11.0005H17.9994"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 class="font-HK font-bold text-[20px] leading-[26px] text-[#000B33]">Innovative Soluation </h3>
+                  <p class="mt-[15px] font-HK font-regular leading-[26px] text-[16px] text-[#000B33]">Fully layered
+                    dolor sit amet
+                    , consectetur adipisicing elit. Dolores officiis laboriosam.</p>
+                </div>
+              </div>
+              <div class="flex justify-between gap-[23px]">
+                <span class="min-w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#FD4C5C]">
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M10.999 7.00031C12.6559 7.00031 13.999 5.65716 13.999 4.00031C13.999 2.34345 12.6559 1.00031 10.999 1.00031C9.34217 1.00031 7.99902 2.34345 7.99902 4.00031C7.99902 5.65716 9.34217 7.00031 10.999 7.00031Z"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M10.999 21.0003V7.00031" stroke="white" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path
+                      d="M3.99939 11.0005H0.99939C0.99939 13.6527 2.05296 16.1962 3.92832 18.0716C5.80369 19.9469 8.34722 21.0005 10.9994 21.0005C13.6516 21.0005 16.1951 19.9469 18.0705 18.0716C19.9458 16.1962 20.9994 13.6527 20.9994 11.0005H17.9994"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 class="font-HK font-bold text-[20px] leading-[26px] text-[#000B33]">Clear Navigation</h3>
+                  <p class="mt-[15px] font-HK font-regular leading-[26px] text-[16px] text-[#000B33]">Fully layered
+                    dolor sit amet, consectetur adipisicing elit. Dolores officiis laboriosam.</p>
+                </div>
+              </div>
+              <div class="flex justify-between gap-[23px]">
+                <span class="min-w-[60px] h-[60px] rounded-full flex justify-center items-center bg-[#FFC83E]">
+                  <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6.40099 21.4039H3.40041C2.86988 21.4039 2.36107 21.1931 1.98592 20.818C1.61078 20.4429 1.40002 19.934 1.40002 19.4035V12.4022C1.40002 11.8716 1.61078 11.3628 1.98592 10.9877C2.36107 10.6125 2.86988 10.4018 3.40041 10.4018H6.40099M13.4023 8.40138V4.40061C13.4023 3.6048 13.0862 2.84159 12.5235 2.27887C11.9608 1.71616 11.1976 1.40002 10.4018 1.40002L6.40099 10.4018V21.4039H17.6832C18.1656 21.4094 18.6337 21.2403 19.0013 20.9278C19.3689 20.6154 19.6112 20.1806 19.6836 19.7036L21.0638 10.7018C21.1073 10.4151 21.088 10.1224 21.0072 9.84391C20.9263 9.56543 20.7859 9.30785 20.5956 9.08903C20.4053 8.8702 20.1697 8.69537 19.9052 8.57663C19.6406 8.45789 19.3534 8.3981 19.0634 8.40138H13.4023Z"
+                      stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 class="font-HK font-bold text-[20px] leading-[26px] text-[#000B33]">Over 800 Clients</h3>
+                  <p class="mt-[15px] font-HK font-regular leading-[26px] text-[16px] text-[#000B33]">Fully layered
+                    dolor sit amet, consectetur adipisicing elit. Dolores officiis laboriosam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex-1 flex justify-end">
+          <div class="max-w-[504.97px] ">
+            <img class="w-[100%]" src="images/section 4 hero.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#001C80] relative pt-[130px] pb-[159px] ">
+        <div class="absolute top-[92px] left-[-133px] ">
+          <img src="images/" alt="">
+        </div>
+        <div class="relative z-1 max-w-[637px] mx-auto flex justify-between gap-[10px] border-solid border-[#ffffff33] border-b-2 pb-[18px]">
+          <a href="" class="relative font-HK font-bold text-[20px] leading-[26px] text-[#FFC83E] before:content-[''] before:w-[100%]
+              before:h-[2px] before:bg-[#FFC83E] before:absolute before:bottom-[-20px] before:left-[0] ">App security</a>
+          <a href="" class="relative font-HK font-bold text-[20px] leading-[26px] text-[#fff] opacity-70 hover:text-[#FFC83E] 
+              hover:opacity-100 transition-all duration-[0.4s] before:content-[''] before:w-[0%]
+              before:h-[2px] before:bg-[#FFC83E] before:absolute before:bottom-[-20px] before:left-[0] hover:before:w-[100%]
+              before:transition-all before:duration-[0.4s]">Continuous monitoring</a>
+          <a href="" class="relative font-HK font-bold text-[20px] leading-[26px] text-[#fff] opacity-70 hover:text-[#FFC83E] 
+              hover:opacity-100 transition-all duration-[0.4s] before:content-[''] before:w-[0%]
+              before:h-[2px] before:bg-[#FFC83E] before:absolute before:bottom-[-20px] before:left-[0] hover:before:w-[100%]
+              before:transition-all before:duration-[0.4s]">Data storage</a>
+        </div>
+        <div class="mt-[91px] flex max-w-[1289px] justify-between items-center ml-[111px] relative z-1">
+          <div class="w-[100%] max-w-[783.3px] ">
+            <img class="w-[100%]" src="images/section 5 hero.png" alt="">
+          </div>
+          <div class="w-[100%] max-w-[416px]">
+            <h1 class="font-HK font-bold text-[48px] leading-[57.6px] tracking-[-0.5px] text-[#fff]">We performed with
+              maximum security</h1>
+            <p class="mt-[20px] font-HK font-regular text-[16px] leading-[26px] text-[#fff] opacity-80">Vero homero
+              perfecto mei ut, sonet aperiam an nec. Ni nec dict altera legimu.
+              Me vita haeo tibi que com titure viset cut.Proin tempus elit a laoreet volut pat. </p>
+            <button class="mt-[40px] block w-[100%] max-w-[175px] bg-[#FD4C5C] rounded-[50px] py-[13px]
+                font-HK font-semibold text-[16px] leading-[24px] text-[#fff] border-none outline-none
+                transition-all duration-[0.4s] hover:opacity-80">Download Now</button>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-[1296px] mx-auto pt-[130px] pb-[146px] ">
+        <span class="block font-HK font-semibold text-[20px] leading-[26px] text-[#00BB98] text-center">Pricing & Plans
+        </span>
+        <h1 class="mt-[20px] font-HK font-bold text-[48px] leading-[57.6px] tracking-[-0.5px] text-[#000B33] text-center max-w-[504px]
+            mx-auto">We have exclusive plan in our pricing</h1>
+        <p
+          class="mt-[15px] font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-80 max-w-[353px] mx-auto text-center">
+          Vero homero perfecto mei ut, sonet aperiam an nec.mpus elit a laoreet volut pat. </p>
+        <div class="mt-[80px] flex justify-between gap-[24px] ">
+          <div class="shadow-cardShadow rounded-[10px] pt-[40px] pb-[49px] px-[45px] w-full 
+              hover:[border-image:linear-gradient(to_top_right,#001C80,#152ABF,#2B59FF)_30] rounded-[10px] border-4">
+            <h3 class="font-HK font-semibold text-[20px] leading-[26px] text-center text-[#000B33]">Starter</h3>
+            <span class="h-[80px] flex justify-center items"><svg width="56" height="80" viewBox="0 0 56 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M55.9989 43.6492C55.9989 53.0823 46.0491 60.9488 32.9994 62.5821V55.6489L39.5826 49.2157C41.5492 47.2824 41.5826 44.1158 39.6493 42.1325C39.1854 41.6566 38.6307 41.2786 38.018 41.021C37.4054 40.7633 36.7473 40.6312 36.0827 40.6326C34.9493 40.6326 33.8827 41.0326 32.9994 41.7325V24.7995C32.9994 22.0496 30.7494 19.7996 27.9995 19.7996C25.2329 19.7996 22.9996 22.0496 22.9996 24.7995V26.6328C22.1162 25.9495 21.0496 25.5495 19.9163 25.5495C18.5663 25.5495 17.2997 26.0828 16.3497 27.0495C14.4164 29.0328 14.4497 32.1994 16.4164 34.116L22.9996 40.5659V62.5655C9.94981 60.9488 0 53.0823 0 43.6492C0 39.5659 1.8833 35.5993 5.33323 32.3161C4.44409 30.6013 3.98104 28.6977 3.98326 26.7662C3.98326 21.8329 7.01654 17.3997 11.5331 15.5497C11.5165 15.4164 11.5164 15.2664 11.5164 15.1164C11.5164 6.78321 18.2997 0 26.6162 0C34.9493 0 41.7325 6.78321 41.7325 15.1164C41.7325 15.2664 41.7325 15.4164 41.7159 15.5497C46.2325 17.3997 49.2657 21.8329 49.2657 26.7662C49.2657 28.0495 49.0491 29.3328 48.6324 30.5994C53.399 34.1494 55.9989 38.7326 55.9989 43.6492Z"
+                  fill="#FFC83E" />
+                <path
+                  d="M37.2441 46.829C37.5602 46.5198 37.7405 46.0977 37.7453 45.6556C37.7502 45.2135 37.5792 44.7876 37.27 44.4715C36.9608 44.1555 36.5387 43.9752 36.0966 43.9704C35.6545 43.9655 35.2286 44.1365 34.9125 44.4457L29.666 49.5856V24.7977C29.666 24.3557 29.4904 23.9318 29.1778 23.6192C28.8653 23.3067 28.4413 23.1311 27.9993 23.1311C27.5573 23.1311 27.1334 23.3067 26.8208 23.6192C26.5083 23.9318 26.3327 24.3557 26.3327 24.7977V34.4976L21.0861 29.3593C20.7701 29.0501 20.3442 28.8791 19.902 28.884C19.4599 28.8888 19.0379 29.0691 18.7287 29.3852C18.4195 29.7012 18.2485 30.1271 18.2533 30.5692C18.2582 31.0113 18.4385 31.4334 18.7545 31.7426L26.3327 39.1608V78.3334C26.3327 78.7754 26.5083 79.1993 26.8208 79.5119C27.1334 79.8244 27.5573 80 27.9993 80C28.4413 80 28.8653 79.8244 29.1778 79.5119C29.4904 79.1993 29.666 78.7754 29.666 78.3334V54.2505L37.2458 46.829H37.2441Z"
+                  fill="#2B59FF" />
+              </svg>
+            </span>
+            <h1 class="font-HK font-semibold text-[72px] leading-[79.2px] tracking-[-0.5px] text-center 
+                tracking-[-0.5px] text-[#000B33]">$5</h1>
+            <p class="mt-[10px] font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-80 text-center">
+              Per Month</p>
+            <div class="bg-[#001C80] h-[1px] mt-[20px] mb-[30px] opacity-10"></div>
+            <ul class="mt-[30px] list-image-checkmark max-w-[177px] mx-auto">
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">10 GB Disk Space</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">1 Year Support</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">500 Queries</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">Basic Statistics</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">Free Custom Domain</li>
+              <button class="mt-[40px] border border-[#FD4C5C] block max-w-[152px] rounded-[50px] px-[33px] 
+                  py-[13px] font-HK font-semibold text-[16px] leading-[24px] text-[#FD4C5C] hover:bg-[#FD4C5C] hover:text-[#fff]
+                  transition-all duration-[0.4s] hover:opacity-80">Get Started</button>
+            </ul>
+          </div>
+          <div class="shadow-cardShadow rounded-[10px] pt-[40px] pb-[49px] px-[45px] w-full 
+              [border-image:linear-gradient(to_top_right,#001C80,#152ABF,#2B59FF)_30] rounded-[10px] border-4
+              ">
+            <h3 class="font-HK font-semibold text-[20px] leading-[26px] text-center text-[#000B33]">Basic</h3>
+            <span class="h-[80px] flex justify-center items"><svg width="70" height="80" viewBox="0 0 70 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M64.551 57.4163C61.0677 65.2163 56.9843 71.183 52.451 75.1331C55.5343 69.3997 57.101 61.833 57.101 52.4996C57.101 39.0328 50.3009 24.1827 44.4342 13.8327C54.2676 5.66597 63.4344 0.465935 63.8677 0.215933C64.3177 -0.0507351 64.8844 -0.0674022 65.3677 0.149266C65.851 0.365934 66.201 0.782603 66.3177 1.29927C66.6177 2.73261 73.9177 36.3662 64.551 57.4163ZM7.28401 52.4996C7.28401 61.283 8.66735 68.4997 11.384 74.0831C8.40069 71.1164 5.31733 66.783 2.90065 60.483C-4.01606 42.4829 3.56732 14.7494 3.88399 13.5827C3.95293 13.3313 4.07989 13.0996 4.25465 12.9061C4.42941 12.7127 4.64711 12.563 4.89025 12.4689C5.13339 12.3749 5.39519 12.3393 5.65462 12.3648C5.91405 12.3903 6.16387 12.4764 6.38401 12.616C6.61734 12.766 10.984 15.566 16.5507 20.1161C11.7507 29.6828 7.28401 41.5162 7.28401 52.4996Z"
+                  fill="#2B59FF" />
+                <path
+                  d="M33.5345 2.94952C32.9012 2.09951 31.4845 2.09951 30.8512 2.94952C30.0179 4.06619 10.6177 30.5163 10.6177 52.4998C10.6177 65.2999 13.6178 74.4 19.5678 79.5833C19.8678 79.85 20.2511 80 20.6511 80H32.1845C31.2679 80 30.5179 79.25 30.5179 78.3333V72.0166L23.0345 64.5499C22.3845 63.8999 22.3845 62.8499 23.0345 62.1832C23.7012 61.5332 24.7512 61.5332 25.4012 62.1832L30.5179 67.2999V44.1164L23.0345 36.6497C22.88 36.4955 22.7574 36.3124 22.6738 36.1108C22.5901 35.9091 22.5471 35.693 22.5471 35.4747C22.5471 35.2564 22.5901 35.0403 22.6738 34.8387C22.7574 34.637 22.88 34.4539 23.0345 34.2997C23.1883 34.1415 23.3722 34.0157 23.5755 33.9297C23.7787 33.8438 23.9972 33.7996 24.2178 33.7996C24.4385 33.7996 24.6569 33.8438 24.8602 33.9297C25.0634 34.0157 25.2474 34.1415 25.4012 34.2997L30.5179 39.4164V33.583C30.5179 32.6664 31.2679 31.9164 32.1845 31.9164C33.1012 31.9164 33.8512 32.6664 33.8512 33.583V53.7665L38.9846 48.6331C39.1388 48.4786 39.3219 48.356 39.5235 48.2724C39.7252 48.1888 39.9413 48.1457 40.1596 48.1457C40.3779 48.1457 40.594 48.1888 40.7956 48.2724C40.9973 48.356 41.1804 48.4786 41.3346 48.6331C41.9846 49.2998 41.9846 50.3498 41.3346 50.9998L33.8512 58.4832V78.3333C33.8512 79.25 33.1012 80 32.1845 80H43.7179C44.1179 80 44.5179 79.85 44.818 79.5833C50.7513 74.4 53.768 65.2999 53.768 52.4998C53.768 30.5163 34.3512 4.06619 33.5345 2.94952Z"
+                  fill="#FFC83E" />
+              </svg>
+            </span>
+            <h1 class="font-HK font-semibold text-[72px] leading-[79.2px] tracking-[-0.5px] text-center 
+                tracking-[-0.5px] text-[#000B33]">$45</h1>
+            <p class="mt-[10px] font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-80 text-center">
+              Per Month</p>
+            <div class="bg-[#001C80] h-[1px] mt-[20px] mb-[30px] opacity-10"></div>
+            <ul class="mt-[30px] list-image-checkmark max-w-[177px] mx-auto">
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">500 GB Disk Space</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">5 Year Support</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">1000 Queries</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">Basic Statistics</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] ">Free Custom Domain</li>
+              <button class="mt-[40px] border border-[#FD4C5C] block max-w-[152px] rounded-[50px] px-[33px] 
+                  py-[13px] font-HK font-semibold text-[16px] leading-[24px] text-[#FD4C5C] bg-[#FD4C5C] text-[#fff]
+                  transition-all duration-[0.4s] hover:opacity-80">Get Started</button>
+            </ul>
+          </div>
+          <div class="shadow-cardShadow rounded-[10px] pt-[40px] pb-[49px] px-[45px] w-full 
+              hover:[border-image:linear-gradient(to_top_right,#001C80,#152ABF,#2B59FF)_30] rounded-[10px] border-4">
+            <h3 class="font-HK font-semibold text-[20px] leading-[26px] text-center text-[#000B33]">Premium</h3>
+            <span class="h-[80px] flex justify-center items"><svg width="46" height="80" viewBox="0 0 46 80" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24.3538 56.7797L24.4372 78.3331C24.4372 79.2499 23.7037 80 22.7869 80H22.7703C21.8534 80 21.1033 79.2666 21.1033 78.3497L21.02 56.7797C9.30146 55.9796 0 46.178 0 34.2595C0 33.3427 0.750118 32.5925 1.66693 32.5925C9.83488 32.5925 17.0027 36.9432 20.9866 43.4609L20.9366 31.6924C17.036 27.4584 14.919 22.0075 14.9857 16.2566C15.0357 10.2724 17.3861 4.67148 21.6034 0.487483C21.7576 0.332953 21.9408 0.210355 22.1424 0.126706C22.3441 0.0430567 22.5603 0 22.7786 0C22.9969 0 23.2131 0.0430567 23.4147 0.126706C23.6164 0.210355 23.7996 0.332953 23.9538 0.487483C28.1596 4.661 30.5393 10.3316 30.5715 16.2566V16.4567C30.5715 22.3076 28.3378 27.8418 24.2705 32.0925L24.3205 43.5776C28.2711 36.9932 35.4723 32.5925 43.6902 32.5925C44.607 32.5925 45.3571 33.3427 45.3571 34.2595C45.3571 46.178 36.0723 55.9796 24.3538 56.7797Z"
+                  fill="#FFC83E" />
+                <path
+                  d="M16.797 31.9097C13.4048 27.3673 11.5879 21.9248 11.6512 16.2189C11.6679 14.4469 11.8646 12.705 12.2246 11.0097C9.02396 9.35103 5.47126 8.48659 1.86633 8.48933C0.932851 8.48933 0.199402 9.22277 0.199402 10.1563C0.199402 20.5029 7.25051 29.2693 16.797 31.9097ZM33.9047 16.4572C33.9047 22.0815 32.0811 27.4473 28.7556 31.9097C38.3071 29.2726 45.3732 20.5045 45.3732 10.1563C45.3732 9.22277 44.6231 8.48933 43.7063 8.48933C40.0323 8.48933 36.4984 9.3728 33.3296 11.0164C33.6955 12.7302 33.8881 14.4765 33.9047 16.2289V16.4572Z"
+                  fill="#2B59FF" />
+              </svg>
+            </span>
+            <h1 class="font-HK font-semibold text-[72px] leading-[79.2px] tracking-[-0.5px] text-center 
+                tracking-[-0.5px] text-[#000B33]">$120</h1>
+            <p class="mt-[10px] font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-80 text-center">
+              Per Month</p>
+            <div class="bg-[#001C80] h-[1px] mt-[20px] mb-[30px] opacity-10"></div>
+            <ul class="mt-[30px] list-image-checkmark max-w-[177px] mx-auto">
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33]">800 GB Disk Space</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33]">Unlimitedr Support</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33]">Unlimited Queries</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33]">Full Statistics</li>
+              <li class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33]">Free Custom Domain</li>
+              <button class="mt-[40px] border border-[#FD4C5C] block max-w-[152px] rounded-[50px] px-[33px] 
+                  py-[13px] font-HK font-semibold text-[16px] leading-[24px] text-[#FD4C5C] hover:bg-[#FD4C5C] hover:text-[#fff]
+                  transition-all duration-[0.4s] hover:opacity-80">Get Started</button>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#001C80] before:content-[''] before:w-[264px] before:h-[264px] before:-[#fff] before:opacity-10
+          before:absolute before:left-[-132px] before:top-[-152px] before:rounded-full">
+        <div class="flex justify-between items-center max-w-[1281px] mx-auto pt-[84px] pb-[86px]">
+          <div class="flex gap-[30px] justify-between">
+            <div class="w-[60px] h-[60px] rounded-full flex justify-center items-center mt-[12px] bg-[#fff]">
+              <span>
+                <svg width="34" height="22" viewBox="0 0 34 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M16.9099 10.2666C19.7523 10.2666 22.0565 7.96834 22.0565 5.1333C22.0565 2.29826 19.7523 0 16.9099 0C14.0675 0 11.7633 2.29826 11.7633 5.1333C11.7633 7.96834 14.0675 10.2666 16.9099 10.2666Z"
+                    fill="#00BB98" />
+                  <path
+                    d="M27.2022 13.1999C29.2325 13.1999 30.8783 11.5583 30.8783 9.5333C30.8783 7.50829 29.2325 5.8667 27.2022 5.8667C25.172 5.8667 23.5261 7.50829 23.5261 9.5333C23.5261 11.5583 25.172 13.1999 27.2022 13.1999Z"
+                    fill="#00BB98" />
+                  <path
+                    d="M6.72066 13.1999C8.75091 13.1999 10.3968 11.5583 10.3968 9.5333C10.3968 7.50829 8.75091 5.8667 6.72066 5.8667C4.6904 5.8667 3.04456 7.50829 3.04456 9.5333C3.04456 11.5583 4.6904 13.1999 6.72066 13.1999Z"
+                    fill="#00BB98" />
+                  <path
+                    d="M16.9095 11.7329C11.6394 11.7329 7.35156 16.0097 7.35156 21.2661C7.35156 21.6709 7.68097 21.9995 8.08681 21.9995H25.7322C26.1381 21.9995 26.4675 21.6709 26.4675 21.2661C26.4675 16.0097 22.1796 11.7329 16.9095 11.7329Z"
+                    fill="#00BB98" />
+                  <path
+                    d="M7.98896 14.8249C7.539 14.7295 7.08166 14.6665 6.61703 14.6665C2.96884 14.6665 0 17.6277 0 21.2664C0 21.6712 0.329404 21.9998 0.735248 21.9998H6.01708C5.93471 21.7695 5.88178 21.5246 5.88178 21.2664C5.88178 18.8597 6.66996 16.6377 7.98896 14.8249Z"
+                    fill="#00BB98" />
+                  <path
+                    d="M27.2029 14.6665C26.7382 14.6665 26.2809 14.7295 25.8309 14.8249C27.1499 16.6377 27.9381 18.8597 27.9381 21.2664C27.9381 21.5246 27.8852 21.7695 27.8028 21.9998H33.0846C33.4905 21.9998 33.8199 21.6712 33.8199 21.2664C33.8199 17.6277 30.851 14.6665 27.2029 14.6665Z"
+                    fill="#00BB98" />
+                </svg>
+
+              </span>
+            </div>
+            <div>
+              <h3 class="font-HK text-[60px] font-bold leading-[72px] tracking-[-0.5px] text-[#fff]">28K</h3>
+              <p class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Total Users</p>
+            </div>
+          </div>
+          <div class="flex gap-[30px] justify-between">
+            <div class="w-[60px] h-[60px] rounded-full flex justify-center items-center mt-[12px] bg-[#fff]">
+              <span>
+                <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18.238 22.0094L16.5881 23.655V16.5456C16.5881 15.8431 16.0177 15.2729 15.3121 15.2729C14.6065 15.2729 14.0361 15.8431 14.0361 16.5456V23.655L12.3862 22.0094C11.8873 21.5118 11.0808 21.5118 10.5819 22.0094C10.083 22.507 10.083 23.3114 10.5819 23.809L14.4087 27.6259C14.5261 27.7443 14.6678 27.8372 14.8247 27.9021C14.9804 27.9657 15.1463 28.0001 15.3121 28.0001C15.478 28.0001 15.6439 27.9657 15.7996 27.9021C15.9565 27.8372 16.0981 27.7443 16.2156 27.6259L20.0424 23.809C20.5413 23.3114 20.5413 22.507 20.0424 22.0094C19.5433 21.5117 18.7369 21.5117 18.238 22.0094Z"
+                    fill="#FFC83E" />
+                  <path
+                    d="M26.7236 9.19411C26.1405 4.81594 22.121 0 17.2874 0C14.6959 0 12.0609 1.27019 10.3013 3.30777C9.73854 3.10284 9.14262 2.99725 8.53528 2.99725C5.78549 2.99725 3.53203 5.15832 3.39422 7.86795C1.36278 9.17376 0 11.5856 0 13.9999C0 15.5119 0.50273 17.1893 1.37935 18.6008C2.54051 20.4729 4.67021 21.6362 6.93642 21.6362H7.88834C8.07592 21.1067 8.3681 20.618 8.7777 20.2095C9.49995 19.4878 10.462 19.0908 11.4841 19.0908V16.5453C11.4841 14.4402 13.2004 12.7271 15.3122 12.7271C17.4227 12.7271 19.1402 14.4402 19.1402 16.5453V19.0908C20.1611 19.0908 21.1231 19.4878 21.8466 20.2095C22.2562 20.618 22.5472 21.1067 22.736 21.6362H24.072C27.3833 21.6362 30.2428 19.1773 30.5822 16.0375C30.6103 15.7868 30.6244 15.531 30.6244 15.2727C30.6244 12.3505 29.1238 10.0634 26.7236 9.19411Z"
+                    fill="#FFC83E" />
+                </svg>
+              </span>
+            </div>
+            <div>
+              <h3 class="font-HK text-[60px] font-bold leading-[72px] tracking-[-0.5px] text-[#fff]">13K</h3>
+              <p class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Lifetime Downloads</p>
+            </div>
+          </div>
+          <div class="flex gap-[30px] justify-between">
+            <div class="w-[60px] h-[60px] rounded-full flex justify-center items-center mt-[12px] bg-[#fff]">
+              <span>
+                <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.65495 9.28564H0.931002C0.416876 9.28564 0 9.70138 0 10.2142V25.0713C0 25.5841 0.416814 25.9999 0.931002 25.9999H4.65489C5.16901 25.9999 5.58589 25.5841 5.58589 25.0713V10.2142C5.58589 9.70138 5.16914 9.28564 4.65495 9.28564Z"
+                    fill="#FD4C5C" />
+                  <path
+                    d="M27.9091 11.7471C27.7449 10.3067 26.3958 9.28571 24.9423 9.28571H17.6842C18.301 8.18406 18.6321 5.06817 18.6174 3.79532C18.593 1.6884 16.8437 0 14.7313 0H13.9631C13.4485 0 13.0321 0.415305 13.0321 0.928596C13.0321 3.07586 12.1938 6.95162 10.6128 8.52856C9.5487 9.58993 8.639 9.97453 7.44617 10.5691V24.5023C9.27243 25.1094 11.5912 26 15.1255 26H21.2155C23.2221 26 24.7849 24.1463 24.0073 22.1878C25.192 21.8659 26.0657 20.7823 26.0657 19.5C26.0657 19.1382 25.9957 18.7918 25.8693 18.4735C27.8656 17.931 28.6005 15.4723 27.2149 13.9286C27.7239 13.3613 28.0046 12.5855 27.9091 11.7471Z"
+                    fill="#FD4C5C" />
+                </svg>
+
+              </span>
+            </div>
+            <div>
+              <h3 class="font-HK text-[60px] font-bold leading-[72px] tracking-[-0.5px] text-[#fff]">68K</h3>
+              <p class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">Social Likes</p>
+            </div>
+          </div>
+          <div class="flex gap-[30px] justify-between">
+            <div class="w-[60px] h-[60px] rounded-full flex justify-center items-center mt-[12px] bg-[#fff]">
+              <span><svg width="27" height="25" viewBox="0 0 27 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M26.2182 9.89422L19.9623 15.9763L21.4407 24.561C21.4518 24.6302 21.4437 24.701 21.4172 24.7659C21.3906 24.8307 21.3467 24.8871 21.2902 24.9287C21.2253 24.9745 21.1478 24.9994 21.0683 25C21.0077 25.0002 20.948 24.9847 20.8953 24.955L13.1648 20.9028L5.43434 24.955C5.37256 24.9876 5.30287 25.0025 5.2331 24.9979C5.16333 24.9932 5.09624 24.9693 5.03935 24.9287C4.98288 24.8871 4.93897 24.8307 4.91244 24.7659C4.8859 24.701 4.87775 24.6302 4.88888 24.561L6.36726 15.9763L0.111422 9.89422C0.0617425 9.84513 0.0267662 9.78319 0.0104203 9.71537C-0.00592566 9.64755 -0.00299393 9.57653 0.0188862 9.51028C0.0407663 9.44403 0.0807284 9.38518 0.134286 9.34032C0.187844 9.29547 0.252876 9.2664 0.322082 9.25637L8.96289 8.00318L12.8262 0.191397C12.8613 0.133031 12.9109 0.0847205 12.9702 0.0511763C13.0296 0.0176321 13.0966 0 13.1648 0C13.233 0 13.3 0.0176321 13.3594 0.0511763C13.4187 0.0847205 13.4683 0.133031 13.5034 0.191397L17.3667 8.00318L26.0075 9.25637C26.0767 9.2664 26.1417 9.29547 26.1953 9.34032C26.2489 9.38518 26.2888 9.44403 26.3107 9.51028C26.3326 9.57653 26.3355 9.64755 26.3192 9.71537C26.3028 9.78319 26.2678 9.84513 26.2182 9.89422Z"
+                    fill="#2B59FF" />
+                </svg>
+              </span>
+            </div>
+            <div>
+              <h3 class="font-HK text-[60px] font-bold leading-[72px] tracking-[-0.5px] text-[#fff]">10K</h3>
+              <p class="font-HK font-semibold text-[16px] leading-[24px] text-[#fff]">5 Star Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt-[120px] max-w-[1600px] mx-auto mb-[136px]">
+        <div class="max-w-[1336px] mx-auto">
+          <span
+            class="block font-HK font-semibold text-[20px] leading-[26px] text-[#00BB98] text-center">Testimonials</span>
+          <h1
+            class="mt-[20px] font-HK font-bold text-[48px] leading-[57.6px] tracking-[-0.5px] text-[#000B33] text-center">
+            What our happy clients say</h1>
+          <div class="mt-[80px] flex gap-[24px] justify-between w-full relative">
+            <div class="w-full rounded-[10px] shadow-cardShadow2 p-[50px] ">
+              <div class="flex gap-[24.29px]">
+                <div class="w-[70px] h-[70px] rounded-full">
+                  <img class="w-full h-full object-cover" src="images/avatar 1.png" alt="">
+                </div>
+                <div class="mt-[7px]">[7px]
+                  <h4 class="font-HK font-bold text-[20px] leading-[26px] text-[#000B33]">Mila McSabbu</h4>
+                  <p class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70">Freelance
+                    Designer</p>
+                </div>
+              </div>
+              <p class="mt-[30px] font-HK font-regular text-[18px] leading-[26px] text-[#000B33] opacity-80">OMG! I
+                cannot believe that I have got a brand new landing page after getting appmax. It was super easy to edit
+                and publish.</p>
+            </div>
+            <div class="w-full rounded-[10px] shadow-cardShadow2 p-[50px] ">
+              <div class="flex gap-[24.29px]">
+                <div class="w-[70px] h-[70px] rounded-full">
+                  <img class="w-full h-full object-cover" src="images/avatar 2.png" alt="">
+                </div>
+                <div class="mt-[7px]">
+                  <h4 class="font-HK font-bold text-[20px] leading-[26px] text-[#000B33]">Robert Fox</h4>
+                  <p class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70">UI/UX Designer
+                  </p>
+                </div>
+              </div>
+              <p class="mt-[30px] font-HK font-regular text-[18px] leading-[26px] text-[#000B33] opacity-80">OMG! I
+                cannot believe that I have got a brand new landing page after getting appmax. It was super easy to edit
+                and publish.</p>
+            </div>
+            <div class="w-full rounded-[10px] shadow-cardShadow2 p-[50px] ">
+              <div class="flex gap-[24.29px]">
+                <div class="w-[70px] h-[70px] rounded-full">
+                  <img class="w-full h-full object-cover" src="images/avatar 3.png" alt="">
+                </div>
+                <div class="mt-[7px]">
+                  <h4 class="font-HK font-bold text-[20px] leading-[26px] text-[#000B33]">Jenny Wilson</h4>
+                  <p class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70">Web Developer</p>
+                </div>
+              </div>
+              <p class="mt-[30px] font-HK font-regular text-[18px] leading-[26px] text-[#000B33] opacity-80">OMG! I
+                cannot believe that I have got a brand new landing page after getting appmax. It was super easy to edit
+                and publish.</p>
+            </div>
+            <div
+              class="flex justify-between items-center absolute top-[50%] left-[50%] translate-x-[-50%] w-[calc(100%+40px)]">
+              <button
+                class="w-[40px] h-[40px] bg-[#FD4C5C] rounded-[5px] flex justify-center items-center pointer hover:opacity-70">
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M18 8.41308C18 8.69719 17.8871 8.96966 17.6862 9.17056C17.4853 9.37146 17.2129 9.48432 16.9288 9.48432L4.51743 9.48432L9.11731 14.0821C9.31846 14.2832 9.43147 14.556 9.43147 14.8405C9.43147 15.125 9.31846 15.3978 9.11731 15.5989C8.91616 15.8001 8.64335 15.9131 8.35888 15.9131C8.07441 15.9131 7.80159 15.8001 7.60044 15.5989L1.17303 9.17152C1.07327 9.07201 0.994121 8.9538 0.940117 8.82365C0.886114 8.69351 0.858314 8.55399 0.858314 8.41308C0.858314 8.27218 0.886114 8.13266 0.940117 8.00251C0.994121 7.87237 1.07327 7.75416 1.17303 7.65465L7.60044 1.22723C7.80159 1.02608 8.07441 0.913081 8.35888 0.913081C8.64335 0.913081 8.91616 1.02608 9.11731 1.22723C9.31846 1.42838 9.43147 1.7012 9.43147 1.98567C9.43147 2.27014 9.31846 2.54295 9.11731 2.7441L4.51743 7.34185L16.9288 7.34185C17.2129 7.34185 17.4853 7.45471 17.6862 7.6556C17.8871 7.8565 18 8.12897 18 8.41308Z"
+                    fill="white" />
+                </svg>
+              </button>
+              <button
+                class="w-[40px] h-[40px] bg-[#FD4C5C] rounded-[5px] flex justify-center items-center pointer hover:opacity-70">
+                <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0 8.41309C0 8.12898 0.112862 7.8565 0.313758 7.65561C0.514653 7.45471 0.787126 7.34185 1.07124 7.34185H13.4826L8.88268 2.74411C8.68153 2.54296 8.56853 2.27014 8.56853 1.98567C8.56853 1.70121 8.68153 1.42839 8.88268 1.22724C9.08383 1.02609 9.35665 0.913086 9.64112 0.913086C9.92559 0.913086 10.1984 1.02609 10.3996 1.22724L16.827 7.65465C16.9267 7.75416 17.0059 7.87237 17.0599 8.00252C17.1139 8.13266 17.1417 8.27218 17.1417 8.41309C17.1417 8.55399 17.1139 8.69351 17.0599 8.82366C17.0059 8.9538 16.9267 9.07201 16.827 9.17152L10.3996 15.5989C10.1984 15.8001 9.92559 15.9131 9.64112 15.9131C9.35665 15.9131 9.08383 15.8001 8.88268 15.5989C8.68153 15.3978 8.56853 15.125 8.56853 14.8405C8.56853 14.556 8.68153 14.2832 8.88268 14.0821L13.4826 9.48432H1.07124C0.787126 9.48432 0.514653 9.37146 0.313758 9.17057C0.112862 8.96967 0 8.6972 0 8.41309Z"
+                    fill="white" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="max-w-[1296px] mx-auto mb-[110px] relative py-[70px]">
+        <div class="absolute top-0 left-0 w-full h-[323.09px]">
+          <img src="images/section 9 hero.png" alt="">
+        </div>
+        <div class="max-w-[1076px] mx-auto relative z-1 flex justify-between items-end gap-[20px]">
+          <div>
+            <h1 class="font-HK font-bold text-[48px] leading-[57.6px] tracking-[-0.5px] text-[#fff] max-w-[455px]">
+            Apptop is available for all devices.</h1>
+            <p class="mt-[15px] font-HK font-regular text-[16px] leading-[26px] text-[#fff] opacity-70 max-w-[416px]">
+              A Private Limited is the most . The limited liabilityis, in fact, the only company allowed by Companies.
+            </p>
+          </div>
+          <div class="flex gap-[24px]">
+            <a href="" class="w-[196px] h-[62px] block ">
+              <img class="w-full h-full" src="images/appstore.png" alt="">
+            </a>
+            <a href="" class="w-[196px] h-[62px] block ">
+              <img class="w-full h-full" src="images/google play.png" alt="">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="max-w-[1296px] mx-auto">
+      <div class="flex justify-between gap-[15px] flex-wrap">
+        <div class="max-w-[306px]">
+          <div class="font-HK font-bold text-[24px] leading-[30px] text-[#000] flex gap-[6px]">
+            <span class="w-[30px] h-[30px] bg-[#FD4C5C] flex justify-center items-center rounded-full text-[#fff]">
+              A
+            </span>
+            ppmax
+          </div>
+          <p class="mt-[30px] font-HK font-regulartext-[16px] leading-[26px] text-[#000B33] opacity-70">
+            There are many variations of passages of Lorem the Ipsum available but it is the majority of suffered that a alteration in that some dummy text.
+          </p>
+          <div class="mt-[30px] flex justify-between max-w-[160px] items-center gap-[10px]">
+            <a href="">
+              <i class="fa-brands fa-instagram text-[#000B33] transition-all duration-[0.4s] hover:text-[#FD4C5C]"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin text-[#000B33] transition-all duration-[0.4s] hover:text-[#FD4C5C]"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-facebook text-[#000B33] transition-all duration-[0.4s] hover:text-[#FD4C5C]"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter text-[#000B33] transition-all duration-[0.4s] hover:text-[#FD4C5C]"></i>
+            </a>
+          </div>
+        </div>
+        <div class="max-w-[141px]">
+          <h4 class="font-HK font-semibold text-[16px] leading-[24px] text-[#000B33]">Services</h4>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[30px] block">Incident Responder</a>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[15px] block">Payment Plans</a>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[15px] block">Secure Managed IT</a>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[15px] block">Make saving More</a>
+        </div>
+        <div class="max-w-[156px] ">
+          <h4 class="font-HK font-semibold text-[16px] leading-[24px] text-[#000B33]">About Us</h4>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[30px] block">Check website Url</a>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[15px] block">Tax Calculator</a>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[15px] block">Locker Security</a>
+          <a href="" class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[15px] block">Talk To Us</a>
+        </div>
+        <div class="max-w-[222px]">
+          <h4 class="font-HK font-semibold text-[16px] leading-[24px] text-[#000B33] block">Contact Info</h4>
+          <p class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70 mt-[30px] block"
+          >455 West Orchard Street Kings Mountain, NC 280867</p>
+          <a href="" class="flex justify-between items-center gap-[10px] max-w-[186px] mt-[10px]
+          font-HK font-regular text-[16px] leading-[26px] text-[#FD4C5C]">
+            <i class="fa-solid fa-phone"></i>
+            <span class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70">+088 (246) 642-27-10</span>
+          </a>
+          <a href="" class="flex justify-between items-center gap-[10px] max-w-[186px] mt-[10px]
+          font-HK font-regular text-[16px] leading-[26px] text-[#FD4C5C]">
+            <i class="fa-solid fa-envelope"></i>
+            <span class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70">example@gmail.com</span>
+          </a>
+        </div>
+      </div>
+      <div class="bg-[#000B33] opacity-10 h-[1px] w-full mt-[95px] mb-[40px]">
+      </div>
+      <div class="flex justify-center items mb-[34px]">
+        <p class="font-HK font-regular text-[16px] leading-[26px] text-[#000B33] opacity-70">© 2021 Appmax All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
